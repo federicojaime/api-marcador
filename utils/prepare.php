@@ -19,7 +19,7 @@
 		public static function getDate() {
 			return date("Y-m-d");
 		}
-
+ 
 		// Only Numbers
 		public static function OnlyNumbers($mixed_input) {
 			return filter_var($mixed_input, FILTER_SANITIZE_NUMBER_INT);
